@@ -1,7 +1,8 @@
 import ImageEgg from "../assets/images/desktop/image-transform.jpg";
 import ImageGlass from "../assets/images/desktop/image-stand-out.jpg";
 import { Box1 } from "../assets/styles/Box1.styled";
-import { Box2, GraphicDesign, Photography } from "../assets/styles/Box2.styled";
+import { GraphicDesign, Photography } from "../assets/styles/Box2.styled";
+import { EggImage, GlassImage } from "../assets/styles/SeperatedBoxes.styled";
 
 export function SeperatedBoxes() {
   return (
@@ -15,8 +16,8 @@ export function SeperatedBoxes() {
         </p>
         <button>Learn more</button>
       </Box1>
-      <img src={ImageEgg} alt="" />
-      <img src={ImageGlass} alt="" />
+      <EggImage src={ImageEgg} alt="" />
+      <GlassImage src={ImageGlass} alt="" />
       <Box1>
         <h3>Stand out to the right audience</h3>
         <p>

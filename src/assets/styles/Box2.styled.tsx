@@ -19,8 +19,10 @@ export const Box2 = styled.div`
 
 export const GraphicDesign = styled(Box2)`
   background-image: url(${ImageCherry});
+  background-position: center;
 `;
 
 export const Photography = styled(Box2)`
   background-image: url(${ImageOrange});
+  background-position: center;
 `;
